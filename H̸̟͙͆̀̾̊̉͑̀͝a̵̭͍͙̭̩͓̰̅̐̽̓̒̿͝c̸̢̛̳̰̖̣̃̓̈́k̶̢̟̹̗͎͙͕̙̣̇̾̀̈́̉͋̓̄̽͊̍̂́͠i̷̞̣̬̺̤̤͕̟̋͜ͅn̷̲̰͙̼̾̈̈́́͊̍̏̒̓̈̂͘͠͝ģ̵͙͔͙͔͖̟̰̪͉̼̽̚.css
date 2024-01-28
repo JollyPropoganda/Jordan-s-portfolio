@@ -25,20 +25,21 @@ h6 {
 }
 
 #Wrapper {
-
     display: inline-block;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 35%;
     height: 30%;
     width: 25%;
+    width: 100%;
 
 }
 
 #windows_pop_up {
     display: inherit;
     position: relative;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 #container5 {
@@ -79,4 +80,8 @@ h6 {
     bottom: 0;
     background-color: black;
     z-index: 2;
+}
+
+@media all and (max-width: 715px) {
+    #windows_pop_up {margin-left: 5%;}
 }
